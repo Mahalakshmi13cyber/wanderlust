@@ -1,10 +1,10 @@
 const User = require("../models/user.js");
 
-module.exports = renderSignupForm = (req, res)=>{
+module.exports.renderSignupForm = (req, res) => {
     res.render("users/signup.ejs");
 }
 
-module.exports = signup = async(req, res)=>{
+module.exports.signup = async (req, res)=>{
     try{
         let {username, email, password} = req.body;
         const newUser = new User({username, email});
