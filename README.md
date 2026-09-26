@@ -12,17 +12,14 @@ Moreover, users can add their reviews with starts as well and can see the places
 
 ## Installation
 To run the project locally, go through the following steps:
-
-### 1. Clone the repo: <br/>
-     git clone https://github.com/MdMahdiHasanTazelly/wanderlust
     
-### 3. Navigate to the main project directory <br/>
+### 1. Navigate to the main project directory <br/>
        cd wanderlust 
 
-### 4. Install all the dependencies. <br/>
+### 2. Install all the dependencies. <br/>
       npm intall
 
-### 5. Set up environmental variables. <br/>
+### 3. Set up environmental variables. <br/>
    - Go to cloudinary dashboard/Account settings/Account <br/>
        `CLOUD_NAME=your_cloudinary_cloud_name`
    - Select API Key from the API Keys section of dashboard <br/>
